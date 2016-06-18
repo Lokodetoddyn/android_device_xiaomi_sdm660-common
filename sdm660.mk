@@ -317,6 +317,7 @@ PRODUCT_PACKAGES += \
     init.xiaomi_parts.rc \
     init.performance.sdm660.rc \
     ueventd.qcom.rc \
+    init.verity.rc \
     init.safailnet.rc
 
 # FM
