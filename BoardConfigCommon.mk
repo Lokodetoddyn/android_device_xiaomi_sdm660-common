@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -109,10 +109,6 @@ TARGET_USES_MEDIA_EXTENSIONS := true
 BOARD_CHARGER_ENABLE_SUSPEND := true
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 HEALTHD_USE_BATTERY_INFO := true
-
-# Clang
-TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := r377782c
 
 # CNE and DPM
 BOARD_USES_QCNE := true
