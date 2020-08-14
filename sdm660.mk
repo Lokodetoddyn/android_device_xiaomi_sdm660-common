@@ -284,7 +284,7 @@ PRODUCT_BOOT_JARS += \
 # IMS
 PRODUCT_PACKAGES += \
     ims-ext-common_system \
-    ims_ext_common.xml \
+    ims_ext_common.xml
 
 # IMS JAR
 PRODUCT_BOOT_JARS += \
