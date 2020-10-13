@@ -1,6 +1,7 @@
 /*
    Copyright (c) 2016, The CyanogenMod Project
    Copyright (c) 2019, The LineageOS Project
+   Copyrighy (C) 2020, The Project Sakura
 
    Redistribution and use in source and binary forms, with or without
    modification, are permitted provided that the following conditions are
@@ -44,7 +45,7 @@
 #include "property_service.h"
 
 using android::base::GetProperty;
-using android::init::property_set;
+using android::base::SetProperty;
 using android::base::ReadFileToString;
 using android::base::Trim;
 
@@ -113,13 +114,13 @@ void vendor_load_persist_properties()
         property_override ("persist.vendor.audio.calfile6","/vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Speaker_cal.acdb");
         property_override ("persist.vendor.audio.calfile7","/vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_workspaceFile.qwsp");
         property_override ("persist.vendor.audio.calfile8","/vendor/etc/acdbdata/adsp_avs_config.acdb");
-        
+
     }
   }
 }
 void vendor_load_properties()
 {
-   std::string product = GetProperty("ro.product.vendor.device", "");	
+   std::string product = GetProperty("ro.product.vendor.device", "");
    if (product.find("whyred") != std::string::npos)
    {
   	std::string region = GetProperty("ro.boot.hwc", "");
