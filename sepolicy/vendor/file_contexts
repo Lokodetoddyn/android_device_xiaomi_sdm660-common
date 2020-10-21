@@ -19,9 +19,10 @@
 /sys/devices/soc/soc:fpc1020(/.*)?              u:object_r:fingerprint_sysfs:s0
 /sys/bus/platform/devices/soc:fingerprint_fpc(/.*)?  u:object_r:fingerprint_sysfs:s0
 
-# Firmware
+# Root files
 /firmware                                                     u:object_r:firmware_file:s0
 /bt_firmware                                                  u:object_r:bt_firmware_file:s0
+/persist(/.*)?                                                u:object_r:mnt_vendor_file:s0
 
 # Amplifier
 /(vendor|system/vendor)/bin/tinymix                           u:object_r:vendor_tinyalsa_exec:s0
