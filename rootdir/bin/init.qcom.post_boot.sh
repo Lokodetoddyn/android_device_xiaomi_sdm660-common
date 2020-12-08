@@ -97,6 +97,9 @@ else
     panel=${panel:2:4}
 fi
 
+#Display saturation config
+    echo 255 > /sys/devices/platform/kcal_ctrl.0/kcal_sat
+
 # Disable wsf for all targets beacause we are using efk.
 # wsf Range : 1..1000 So set to bare minimum value 1.
 echo 1 > /proc/sys/vm/watermark_scale_factor
