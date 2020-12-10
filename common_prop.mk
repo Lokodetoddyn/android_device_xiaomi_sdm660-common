@@ -172,7 +172,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.gralloc.enable_fb_ubwc=1 \
     vendor.video.disable.ubwc=1 \
     vendor.display.enable_default_color_mode=0 \
-    debug.hwui.renderer=skiavk \
     video.disable.ubwc=1
 
 # The default sf phase offset is set to 6ms, to avoid it be included into next
@@ -353,3 +352,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Zygote preforking
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
+
