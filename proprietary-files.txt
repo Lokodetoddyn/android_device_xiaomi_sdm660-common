@@ -382,14 +382,14 @@ vendor/lib64/libhdr_tm.so|0744584d9e30a921898695c89e96293901437c08
 vendor/lib/libsdm-color.so|325c5b6cff3cf3d7d5d8e479a1c37f7255cbf748
 vendor/lib/libsdm-diag.so|fa211dd848a93242e84d1b7fdc5fcf6cb9c25c2f
 vendor/lib/libsdmextension.so|342a6ecc85a93309c86c01466a612cfbe49c69f5
-vendor/lib/libqseed3.so|344d2ce1fe3670f4b0a832a85bd725c4bdb14329
+vendor/lib/libqseed3.so|44f99b99b831227491e320a3098c8defe8df0781
 -vendor/lib/libsdm-disp-vndapis.so|a982cb75f67f688353bc39e8d77cb2e9879e3bbb
 vendor/lib/libtinyxml2_1.so|89e1b1af10209dbb8d341cd314750cc64fc33852
 vendor/lib64/libqseed3.so|6779aaf96283e244122f4cc76cd3cb750ff14ed5
-vendor/lib64/libsdm-color.so|b5e5ec9f5cdad2094891197fd00f8ccdc8340c06
+vendor/lib64/libsdm-color.so|fb624abddaf7c5971f470c36dcdd7c7feb060352
 vendor/lib64/libsdm-diag.so|db4c495e3e64ea0cbc0d079a2aa16862a9b02192
 -vendor/lib64/libsdm-disp-vndapis.so|92fe3602eaaae1847965e8886d2cbef3d0a801f8
-vendor/lib64/libsdmextension.so|f1a7c8f98cfe34375f4e204e0a9283224c86aafe
+vendor/lib64/libsdmextension.so|71d2737fea43aa19216f63d551d2abf7ae02794e
 vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 
 # Graphics (Vulkan) - from LA.UM.8.2.r1-06700-sdm660.0
@@ -711,7 +711,7 @@ vendor/lib64/sensor_calibrate.so|dacb7a77e1713a756a43c082329e9f42e2c0d40e
 vendor/lib64/sensors.ssc.so|b53f9d8a5580feb9ca8f9e4efd080f76dc1d1588
 
 # Soter - from LA.UM.8.2.r1-06200-sdm660.0
--app/SoterService/SoterService.apk|897999e257f5e59ebe2f9ca08a4f5512602f6c5e
+-app/SoterService/SoterService.apk|482523fabe02255e7ab6f80fbaaabe32c8fb3be9
 
 # Soter - from LA.UM.8.2.r1-06700-sdm660.0
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service|37f9501fa45a69ba3a27fd338704d76afc534bcb
@@ -728,13 +728,18 @@ vendor/lib/libsubsystem_control.so|fe08da9f6a0e73a97231055c4ca8279a68432476
 vendor/lib64/libSubSystemShutdown.so|c934b2df57be86fdfb9bdf2046f9289af5e7a62c
 vendor/lib64/libsubsystem_control.so|b2e8c7eb9d999137ae99ea38f85d7dac59c6dcc2
 
-# Thermal - from wayne Miui 9.7.4
-vendor/bin/thermal-engine|0be3686204fc600f8dd8607fff10cd7fd273186e
+# Thermal - from jasmine_sprout/10-QKQ1.190910.002-V11.0.12.0.QDIMIXM
+vendor/bin/thermal-engine|459c3fb5ab99ac95cff15387358c1d0e239a5735
 vendor/lib/libthermalfeature.so|1f1eb616ba26b309a2fda7de40c2163a4acaaa35
 vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
-vendor/lib64/libthermalioctl.so|7c7a784d8ead3d932d164cfc953b09e621060d90
--vendor/lib/libthermalclient.so|d5c6c82b15423e95e991d757bab1b4a27fb88848
--vendor/lib64/libthermalclient.so|3412ce67da6a58d7f44a65e6b8af8cc5bfb9f506
+vendor/lib64/libthermalioctl.so|2f0ee866e9059b1df9ca7b63815591354e7c77d8
+-vendor/lib/libthermalclient.so|c3aecc7610e8f5775a6f6af2ff7790bef74380a1
+-vendor/lib64/libthermalclient.so|84072e150722cc668320f07a75cb8695ce1a79b0
+vendor/bin/hw/android.hardware.thermal@1.0-service|9f4aea97e96a8e5182633607630cddd4051c3d8a
+vendor/etc/init/android.hardware.thermal@1.0-service.rc|83a76be56b9b0843ff3f2c06186c63156a459acb
+vendor/lib/hw/thermal.sdm660.so|8e2074c9314000ad0b3b377a5693d2949f3902ea
+vendor/lib64/hw/android.hardware.thermal@1.0-impl.so|05d7b6e4419ba068c0055221e0cec1937f0281d2
+vendor/lib64/hw/thermal.sdm660.so|fc04a4a60c1d047e8c3d483c77858c69d47d47c7
 
 # Time services - from LA.UM.8.2.r1-06700-sdm660.0
 -vendor/app/TimeService/TimeService.apk|c935b678fdaed033513f044f6492361c3370f9f0
