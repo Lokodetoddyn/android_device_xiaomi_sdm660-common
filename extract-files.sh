@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Copyright (C) 2018 The LineageOS Project
-# Copyright (C) 2020 The LegionOS-Project
+# Copyright (C) 2020 The Project Sakura
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -31,7 +31,7 @@ fi
 
 ROOT="$COMMON_DIR"/../../..
 
-HELPER="$ROOT"/vendor/legion/build/tools/extract_utils.sh
+HELPER="$ROOT"/vendor/lineage/build/tools/extract_utils.sh
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
